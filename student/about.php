@@ -16,16 +16,16 @@
         </div>
     </div>
 
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
     <script src="../dist/js/sb-admin-2.js"></script>
     <script type="text/javascript">
         $(function() {
             $.material.init();
         });
     </script>
-</body>
+</body>r
 </html>

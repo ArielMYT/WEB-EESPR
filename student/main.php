@@ -10,9 +10,7 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
 <html lang="en">
 
 <head>
-
 <?php include('includes/head.php'); ?>
-
 </head>
 
 <body>
@@ -29,24 +27,14 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
             <a href="profile.php" class="btn btn-inverse btn-lg btn-block">Profile</a>
             <a href="logout.php" class="btn btn-inverse btn-lg btn-block">Logout</a>
         </div>
-    </div><!-- /.container -->
+    </div>
 
-
-    <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Material Core JavaScript -->
-    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>r
+ s  -<script src="../dist/js/sb-admin-2.js"></script>
     <script type="text/javascript">
         $(function() {
             $.material.init();

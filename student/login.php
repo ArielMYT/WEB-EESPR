@@ -21,17 +21,10 @@ if(isset( $_SESSION['entrance_student'] )){
     <link rel="icon" type="image/x-icon" href="../img/eespr.ico">
     <title>EESPR</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- MetisMenu CSS -->
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
-
-    <!-- Social Buttons CSS -->
-    <link href="../bower_components/bootstrap-social/bootstrap-social.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../browser-components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../browser-components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="../browser-components/bootstrap-social/bootstrap-social.css" rel="stylesheet">r
+    <link href="../browser-components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <?php include('includes/head.php'); ?>
 
 </head>
@@ -103,27 +96,15 @@ if(isset( $_SESSION['entrance_student'] )){
         <br>
     <p>Entrance Examination System with Program Recommendation</p>
     </div>
-    <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Material Core JavaScript -->
-    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-
-    <!-- Notify -->
-    <script src="../bower_components/notifyjs/dist/notify.js"></script>
-    <script src="../bower_components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
-    <!-- spinJS -->
-    <script src="../bower_components/spin.js/spin.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/notifyjs/dist/notify.js"></script>
+    <script src="../browser-components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
+    <script src="../browser-components/spin.js/spin.js"></script>r
+ s  -<script src="../dist/js/sb-admin-2.js"></script>
     <script src="../js/student/login.js" type="text/javascript"></script>
 </body>
 

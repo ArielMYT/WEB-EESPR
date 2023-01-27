@@ -10,9 +10,7 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
 <head>
 <!DOCTYPE html>
 <html lang="en">
-
 <?php include('includes/head.php'); ?>
-
 </head>
 
 <body>
@@ -23,7 +21,7 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
         <div class="starter-template">
             <h1 class="text-center">EXAMINATION RESULT</h1>
         </div>
-    </div><!-- /.container -->
+    </div>
     <div class="container">
         <div class="table-responsive bg-primary">
             <input type="hidden" name="csrf" value="<?php echo $_SESSION['form_token'];?>">
@@ -43,26 +41,13 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
         <div class="clearfix"></div>
         <p class="lead">By checking and reviewing of your examination results. You are qualified to enroll with this following courses</p>
         <h3 class="text-left text-danger" id="suggest_course"></h3>
-    </div><!-- /.container -->
-
-
-    <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Material Core JavaScript -->
-    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-    <!-- spinJS -->
-    <script src="../bower_components/spin.js/spin.js"></script>
-
-
-    <!-- Custom Theme JavaScript -->
+    </div>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/spin.js/spin.js"></script>r
     <script src="../dist/js/sb-admin-2.js"></script>
     <script src="../js/student/results.js" type="text/javascript"></script>
 </body>

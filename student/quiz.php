@@ -35,34 +35,19 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
                 <button type="button" class="btn btn-success confirmend btn-lg btn-block hide" name="submit">Submit Answer</button>
             </div>
         </form>
-    </div><!-- /.container -->
+    </div>
 
-
-    <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Material Core JavaScript -->
-    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
-    <!-- spinJS -->
-    <script src="../bower_components/spin.js/spin.js"></script>
-    <!-- Notify -->
-    <script src="../bower_components/notifyjs/dist/notify.js"></script>
-    <script src="../bower_components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
-    <!-- jquery.countdown -->
-    <script src="../bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
+    <script src="../browser-components/spin.js/spin.js"></script>
+    <script src="../browser-components/notifyjs/dist/notify.js"></script>
+    <script src="../browser-components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
+    <script src="../browser-components/jquery.countdown/dist/jquery.countdown.min.js"></script>r
+ s  -<script src="../dist/js/sb-admin-2.js"></script>
     <script src="../js/student/quiz.js" type="text/javascript"></script>
 </body>
 

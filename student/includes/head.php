@@ -6,14 +6,7 @@
     <link rel="icon" type="image/x-icon" href="../img/eespr.ico">
     <title>EESPR</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- MetisMenu CSS -->
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
-
-    <!-- Social Buttons CSS -->
-    <link href="../bower_components/bootstrap-social/bootstrap-social.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../browser-components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../browser-components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="../browser-components/bootstrap-social/bootstrap-social.css" rel="stylesheet">r
+ s  -<link href="../browser-components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">

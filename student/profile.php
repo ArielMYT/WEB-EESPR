@@ -10,9 +10,7 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
 <html lang="en">
 
 <head>
-
 <?php include('includes/head.php'); ?>
-
 </head>
 
 <body>
@@ -31,7 +29,7 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
         <a href="#" data-toggle="modal"  data-target="#profileModal" class="btn btn-info btn-lg btn-block">Update Profile</a>
         <a href="#" data-toggle="modal"  data-target="#accountModal" class="btn btn-info btn-lg btn-block">Update Account</a>
         <a href="logout.php" class="btn btn-inverse btn-lg btn-block">Logout</a>
-    </div><!-- /.container -->
+    </div>
 
     <div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
@@ -89,27 +87,15 @@ if(!isset($_SESSION['entrance_student']) || empty($_SESSION['entrance_student'])
         </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Material Core JavaScript -->
-    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
-    <script src="../bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-    <!-- Notify -->
-    <script src="../bower_components/notifyjs/dist/notify.js"></script>
-    <script src="../bower_components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
-
-    <!-- HolderJS Plugin JavaScript -->
-    <script src="../bower_components/holderjs/src/holder.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/notifyjs/dist/notify.js"></script>
+    <script src="../browser-components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
+    <script src="../browser-components/holderjs/src/holder.js"></script>r
+ s  -<script src="../dist/js/sb-admin-2.js"></script>
     <script src="../js/student/profile.js" type="text/javascript"></script>
 </body>
 
