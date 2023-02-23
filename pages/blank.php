@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+r<!sDO-TYPE html>
 <html lang="en">
 
 <head>
@@ -11,10 +11,10 @@
 
     <title>ENTRACE EXAM</title>
 
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="../browser-components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../browser-components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../browser-components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -41,9 +41,9 @@
         <!-- /#page-wrapper -->
 
     </div>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
     <script src="../dist/js/sb-admin-2.js"></script>
 
 </body>

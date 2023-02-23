@@ -1,4 +1,4 @@
-<?php 
+r<?sph- 
 session_start();
 
 if(!isset($_SESSION['entrance']) || empty($_SESSION['entrance'])){
@@ -20,11 +20,11 @@ if(!isset($_SESSION['entrance']) || empty($_SESSION['entrance'])){
     <link rel="icon" type="image/x-icon" href="../img/eespr.ico">
     <title>EESPR</title>
 
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
-    <link href="../bower_components/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css" rel="stylesheet">
+    <link href="../browser-components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../browser-components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="../browser-components/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css" rel="stylesheet">
     <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
-    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../browser-components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -102,17 +102,17 @@ if(!isset($_SESSION['entrance']) || empty($_SESSION['entrance'])){
         <?php include('modals/schedule.php'); ?>
 
     </div>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/jquery.tablesorter/dist/js/jquery.tablesorter.js"></script>
-    <script src="../bower_components/jquery.tablesorter/dist/js/jquery.tablesorter.widgets.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
-    <script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
-    <script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
-    <script src="../bower_components/notifyjs/dist/notify.js"></script>
-    <script src="../bower_components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
-    <script src="../bower_components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
-    <script src="../bower_components/spin.js/spin.js"></script>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/jquery.tablesorter/dist/js/jquery.tablesorter.js"></script>
+    <script src="../browser-components/jquery.tablesorter/dist/js/jquery.tablesorter.widgets.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="../browser-components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+    <script src="../browser-components/notifyjs/dist/notify.js"></script>
+    <script src="../browser-components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
+    <script src="../browser-components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
+    <script src="../browser-components/spin.js/spin.js"></script>
     <script src="../dist/js/sb-admin-2.js"></script>
     <script src="../js/pages/schedule.js" type="text/javascript"></script>
 </body>
