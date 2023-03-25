@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,10 +8,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" type="image/x-icon" href="../img/eespr.ico">
-    <title>Privacy Policy | EESPR</title>
-<link href="../dist/css/privacy.css" rel="stylesheet">
+    <title>Privacy Policy and Terms and Condition | WEB-EESPR</title>
+ 
+    <link href="../browser-components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../browser-components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="../browser-components/bootstrap-social/bootstrap-social.css" rel="stylesheet">r
+    <link href="../browser-components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../dist/css/privacy.css" rel="stylesheet">
 </head>
-
 <body>
 <h1>Privacy Policy</h1>
 <p>Last updated: March 16, 2023</p>
@@ -321,7 +325,6 @@
 </ul>
 
 <p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
-
 <p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
  <h1>Contact Us</h1>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
@@ -329,4 +332,18 @@
 <li>By email: web-eespr@creativeariel.tech</li>
 </ul>
 </body>
+     <div class="footer">
+        <br>
+    <p>Entrance Examination System with Program Recommendation</p>
+    </div>
+    <script src="../browser-components/jquery/dist/jquery.min.js"></script>
+    <script src="../browser-components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+    <script src="../browser-components/bootstrap-material-design/dist/js/material.min.js"></script>
+    <script src="../browser-components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="../browser-components/notifyjs/dist/notify.js"></script>
+    <script src="../browser-components/notifyjs/dist/styles/bootstrap/notify-bootstrap.js"></script>
+    <script src="../browser-components/spin.js/spin.js"></script>
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <script src="../js/student/login.js" type="text/javascript"></script>
 </html>
